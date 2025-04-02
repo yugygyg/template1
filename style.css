@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #012b12;;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: #012b12;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn {
+    background: limegreen;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #012b12;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+.hero-text{
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+.hero-text a{
+    color: black;
+    font-size: 40px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+.features{
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.features img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content:right;
+}
+.local{
+    text-align: right;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+.local img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+.benefits{
+    text-align: left;
+    background-color: #f9f9f9;
+}
+.benefits img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right ;
+}
+.paymit{
+        text-align: right;
+        background-color: #f9f9f9;
+}
+.paymit img{
+    background-image: url(https://www.fidelity.com/bin-public/060_www_fidelity_com/images/cash-management/debit-card-help-hero.png);
+    width: 50%;
+    height: 100%;
+}
+.solution{
+    text-align: left;
+    background-color: #f9f9f9;
+}
+.solution img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+.success{
+    text-align: right;
+    background-color: #f9f9f9;
+}
+.success img {
+    width: 50%;
+height: 100%;
+display: flex;
+justify-content: left;
+}
+.rates{
+    text-align: left;
+    background-color: #f9f9f9;
+}
+.rates img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.global-reach{
+    text-align: left;
+    background-color: #f9f9f9;
+}
+.global-reach img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section h2, section h3, section h4, section h5, section h6, section h1 {
+    color: black;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    background: limegreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
